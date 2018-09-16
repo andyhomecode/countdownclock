@@ -10,6 +10,18 @@ from tkinter import font
 import time
 import datetime
 
+
+import socket
+def get_ip_address():
+    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    s.connect(("8.8.8.8", 80))
+    return s.getsockname()[0]
+
+#print(get_ip_address())
+
+ip_address = get_ip_address()
+
+
 ### ---- SETUP PARAMETERS
 # list to hold all the items. 
 events = []
@@ -95,7 +107,7 @@ for event in events:
 # put the About at the bottom and how to exit
 
 quitText = StringVar()
-quitText.set("by Andy Maxwell     |     press X to quit")
+quitText.set("by Andy Maxwell | press X to quit | " + ip_address)
 
 
 lblQuit = ttk.Label(root, textvariable=quitText, font=smallfnt, foreground=FGCOLOR, background=BGCOLOR)
