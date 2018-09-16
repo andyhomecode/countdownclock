@@ -37,8 +37,8 @@ events = []
 # idea: add a "color" option to override?
 
 events.append(["P1", "09/17/2018 00:00", ""])
-events.append(["P2", "11/1/2019 00:00", ""])
-events.append(["P3", "02/1/2020 00:00", ""])
+events.append(["P2", "11/1/2018 00:00", ""])
+events.append(["P3", "02/1/2019 00:00", ""])
 events.append(["Wave 1", "07/1/2019 00:00", ""])
 events.append(["Wave 2", "07/1/2020 00:00", ""])
 
