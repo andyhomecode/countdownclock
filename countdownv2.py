@@ -36,12 +36,11 @@ events = []
 # 2, leave as "".  It will hold the StringVar() that we'll update every second
 # idea: add a "color" option to override?
 
-events.append(["School", "9/5/2018 08:00", ""])
-events.append(["Mom's Birthday", "9/8/2018 00:00", ""])
-events.append(["Andy's Birthday", "1/3/2019  00:00", ""])
-events.append(["Sabine's Birthday", "1/8/2019  00:00", ""])
-events.append(["Nate Birthday", "2/6/2019 00:00", ""])
-events.append(["Christmas", "12/24/2018 00:00", ""])
+events.append(["P1", "09/17/2018 00:00", ""])
+events.append(["P2", "11/1/2019 00:00", ""])
+events.append(["P3", "02/1/2020 00:00", ""])
+events.append(["Wave 1", "07/1/2019 00:00", ""])
+events.append(["Wave 2", "07/1/2020 00:00", ""])
 
 
 # https://wiki.tcl.tk/37701
