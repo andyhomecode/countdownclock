@@ -19,7 +19,11 @@ def get_ip_address():
 
 #print(get_ip_address())
 
-ip_address = get_ip_address()
+
+try:
+    ip_address = get_ip_address()
+except:
+    ip_address = "offline"
 
 
 ### ---- SETUP PARAMETERS
